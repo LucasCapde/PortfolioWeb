@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/c7393ce70b.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <title>Lucas Capdevila</title>
+</head>
+<body>
+    <header class="site-header">
+        <nav id="navbar" class="navbar">
+            <div id="toggle-menu" class="toggle-menu">
+                <label for="toggle-menu-checkbox">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div>
+            <div class="container-items">
+                <a class="logo" href="index.html">Portfolio Web</i></a>
+                <input type="checkbox" class="toggle-menu__checkbox" id="toggle-menu-checkbox">
+                <ul id="items" class="items">
+                    <li><a href="#about">Sobre mi</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li>
+                        <button class="switch active" id="switch">
+                            <span><i class='bx bxs-sun'></i></span>
+                            <span><i class="fa-solid fa-moon"></i></span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <h1 class="nombre">Soy Lucas Capdevila</h1>
+            <h1>Hola a todos !</h1>
+            
+        </div>
+    </header>
+    
+    <main class="main">
+        <section id="about" class="section">
+            <div class="info">
+                <div class="foto">
+                    <h2 class="titulo">Sobre Mí</h2>
+                    <img src="img/foto-perfil.jpeg" alt="Foto de Perfil" data-aos="fade-right" data-aos-delay="400">
+                </div>
+                <div class="info-texto" data-aos="fade-up" data-aos-delay="800">
+                    <h3>Lucas Capdevila</h3>
+                    <p>Mi nombre es Lucas y actualmente tengo 28 años. Vivo en la ciudad de Concepción - Tucumán, Argentina.</p>
+                    <p>Soy estudiante de Full-Stack Developer Jr. en el plan Argentina Programa. Además, realizo cursos en plataformas como Udemy y Platzi.</p>
+                    <p>Me considero una persona proactiva, con habilidades y actitud positiva para desenvolverme frente a todo tipo de problemas.</p>
+                    <p>Mi objetivo es crecer profesionalmente desarrolando nuevas habilidades día a día logrando adquirir conocimientos y aptitudes que me formen como profesional.</p>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="soft-skills">
+                    <h4>Soft Skills:</h4>
+                    <ul>
+                        <li>Resolución de problemas</li>
+                        <li>Capacidad de trabajo en equipo</li>
+                        <li>Pensamiento crítico</li>
+                        <li>Aprendizaje constante</li>
+                        <li>Compromiso</li>
+                        <li><span>Inglés:</span> Avanzado</li>
+                    </ul>
+                </div>
+                
+                <div class="technical-skills">
+                    <h4>Technical Skills:</h4>
+                    <ul>
+                        <li>Git/GitHub</li>
+                        <li>Trello/Discord</li>
+                        <li>VSCode</li>
+                        <li>Paquete de Office</li>
+                        <li><span>Lenguajes:</span> HTML5, CSS3, JavaScript.</li>
+                        <li><span>Frameworks CSS:</span> Bootstrap.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="section">
+            <h2 class="titulo">Proyectos</h2>
+            <p class="proyectos-intro"><i class="em em-wrench" aria-role="presentation" aria-label="WRENCH"></i> Esta sección se encuentra en construcción. Mientras tanto, podés ver algo de código en el que he trabajado antes en <a href="https://github.com/LucasCapde" target="_blank">GitHub:</a></p>
+            <div class="container">
+                <div class="proyecto">
+                    <img src="img/juego-del-ahorcado.png" alt="Proyecto">
+                    <h3>Juego del Ahorcado</h3>
+                    <p>Este proyecto fue un desafío propuesto en el Programa Oracle ONE. Se trata de un Juego del Ahorcado en el que el usuario debe adivinar una palabra secreta. Fue realizado con HTML, CSS y JavaScript.</p>
+                    <a href="https://lucascapde.github.io/Juego-del-Ahorcado/" target="_blank">Visitar</a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/encriptador-de-texto.png" alt="Proyecto">
+                    <h3>Encriptador de Texto</h3>
+                    <p>Aquí podemos ver el segundo desafío del Programa Oracle ONE. Un sencillo encriptador de palabras que también permite desencriptarlas. Realizado con HTML, CSS y JavaScript.</p>
+                    <a href="https://lucascapde.github.io/Encriptador-de-Texto/" target="_blank">Visitar</a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/bienes-raices.png" alt="Proyecto">
+                    <h3>Página de Bienes Raíces</h3>
+                    <p>Ejercicio del curso Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL de Udemy. Realizado con HTML y CSS.</p>
+                    <a href="https://lucascapde.github.io/Bienes-Raices/" target="_blank">Visitar</a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/blog-de-cafe.png" alt="Proyecto">
+                    <h3>Blog de Café</h3>
+                    <p>Ejercicio del curso Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL de Udemy. Realizado con HTML y CSS.</p>
+                    <a href="https://lucascapde.github.io/Blog-de-Cafe/" target="_blank">Visitar</a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/landing-page.png" alt="Proyecto">
+                    <h3>Landing Page</h3>
+                    <p>Ejercicio de The Odin Project. Se trata del borrador de una Landing Page. Realizado con HTML y CSS.</p>
+                    <a href="https://lucascapde.github.io/Practicando-CSS/" target="_blank">Visitar</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section">
+            <h2 class="titulo">Contacto</h2>
+            <form action="#">
+                <legend>Contactame llenando los campos</legend>
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre:</label>
+                        <input type="text" name="nombre" placeholder="Tu Nombre">
+                    </div>
+                    <div class="campo">
+                        <label>Teléfono:</label>
+                        <input type="tel" name="nombre" placeholder="Tu Teléfono">
+                    </div>
+                    <div class="campo w-100">
+                        <label>Correo:</label>
+                        <input type="mail" name="nombre" placeholder="Tu Correo Electrónico">
+                    </div>
+                    <div class="campo w-100">
+                        <label>Mensaje:</label>
+                        <textarea></textarea>
+                    </div>
+                </div>
+                <div class="enviar">
+                    <input type="submit" class="btn" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="links">
+            <a href="https://discordapp.com/users/373608335603138560" target="_blank" class="fa-discord"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://www.instagram.com/lucasecapdevila/" target="_blank" class="fa-instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/LucasCapde" target="_blank" class="fa-github"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:lcapdevila60@gmail.com?subject=Quiero%20m%C3%A1s%20info%20sobre%20tus%20servicios&body=Hola%20!%20Te%20contacto%20desde%20tu%20portfolio%20web%20y%20quiero%20saber%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20desarrollo%20web%20que%20muestras%20all%C3%AD." target="_blank" class="fa-envelope"><i class="fa-regular fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/lucasecapdevila/" target="_blank" class="fa-linkedin-in"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <div class="credits">
+            <p>&copy; 2023 Copyright - Lucas Capdevila </p>
+        </div>
+    </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 800
+    });
+</script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
